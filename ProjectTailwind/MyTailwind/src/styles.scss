@@ -1,3 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('assets/fonts/kalpurush/kalpurush.css');
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+// @import '~ng-zorro-antd/ng-zorro-antd.min.css';
+@import url('../node_modules/ng-zorro-antd/ng-zorro-antd.min.css');
+
+@layer base {
+    [type='text'],
+    [type='email'],
+    [type='url'],
+    [type='password'],
+    [type='number'],
+    [type='date'],
+    [type='datetime-local'],
+    [type='month'],
+    [type='search'],
+    [type='tel'],
+    [type='time'],
+    [type='week'],
+    [multiple],
+    textarea,
+    select {
+      @apply w-full rounded-md border border-gray-300 px-3 py-3 text-xs placeholder-gray-400 focus:z-10  focus:border-primary-500 focus:outline-none focus:ring-primary-500 dark:border-night-500 dark:bg-night-700 dark:text-night-400 dark:placeholder-night-200;
+    }
+  
+    [type='checkbox'] {
+      @apply h-4 w-4 rounded border-gray-300 bg-gray-100 text-primary-600 focus:ring-0 dark:border-night-600 dark:bg-night-700 dark:ring-offset-night-800 dark:focus:ring-primary-600;
+    }
+    [type='radio'] {
+      @apply border-gray-300 bg-gray-100 text-primary-600 focus:ring-0 dark:border-night-600 dark:bg-night-700 dark:ring-offset-night-800 dark:focus:ring-primary-600;
+    }
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+  
+  @layer components {
+    .dropdown-content {
+      @apply pointer-events-none scale-95 opacity-0 duration-100 ease-in;
+    }
+  
+    .dropdown:hover > .dropdown-content {
+      @apply pointer-events-auto block scale-100 animate-fade-in-up opacity-100 duration-200;
+    }
+  }
+  
+  /** Scroll bar **/
+  @supports selector(::-webkit-scrollbar) {
+    .supports-scrollbars\: pr-2 {
+      padding-right: 0.5rem;
+    }
+  }
+  
+  /** Plugins **/
+  @import './assets/styles/apexchart.scss';
+  
+  .link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease-in-out;
+  }
+  
+  .link-underline-orange {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#f79725, #f79725);
+  }
+  
+  .link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%;
+  }
+  
+  .link-active {
+    color: #f79725;
+    font-weight: 700;
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#f79725, #f79725);
+    background-size: 100% 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+  }
+  
+  /**  data table custom style start **/
+
+.ant-table-thead > tr > th {
+    background-color: #fafcfe !important;
+    // border-top: 1px solid #C9C9C9;
+  }
+  
+  .ant-table-tbody > tr:nth-child(odd) > td {
+    background-color: #fafcfe;
+  }
+  
+  .ant-table-tbody > tr:nth-child(even) > td {
+    background-color: #fff;
+  }
+  
+  .ant-table-tbody > tr:nth-child(odd).ant-table-row:hover > td {
+    background-color: #fafcfe;
+  }
+  
+  .ant-table-tbody > tr:nth-child(even).ant-table-row:hover > td {
+    background-color: #fff;
+  }
+  
+  // .ant-table-tbody>tr:last-child>td {
+  //   border-bottom: 1px solid #C9C9C9;
+  // }
+  
+  /** data table custom style end **/
+  
+  .primary-button {
+    @apply min-w-[5rem] justify-center rounded-sm bg-[#15245E] px-3 py-2 text-white shadow-sm transition duration-300 hover:bg-[#1e348b];
+  }
+  
+  .secondary-button {
+    @apply min-w-[5rem] justify-center rounded-sm bg-[#e2e1e1] px-3 py-2 shadow-sm transition duration-300 hover:bg-[#CFECFB];
+  }
+  
+  .tertiary-button {
+    @apply min-w-[5rem] justify-center rounded-sm bg-[#F79725] px-3 py-2 text-slate-50 shadow-sm transition duration-300 hover:bg-[#faa135];
+  }
+  
+  .secondary-large-button {
+    @apply secondary-button;
+    @apply min-w-[7rem];
+  }
+  
+  .large-icon-button {
+    @apply mx-auto flex min-w-[10rem] items-center justify-center gap-2 rounded-sm px-3 py-2 shadow-sm transition duration-300 hover:bg-[#CFECFB];
+  }
+  
+  img.ant-image-preview-img {
+    display: inline-block;
+  }
+  
+  .ant-input-disabled,
+  .ant-input[disabled] {
+    color: #847878 !important;
+  }
+  
+  @media print {
+    .do-not-print {
+      visibility: hidden;
+    }
+    .print {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      print-color-adjust: exact;
+    }
+  
+    @page {
+      size: auto;
+      margin: 80px 50px;
+    }
+  }
+  
+  .ant-switch-checked {
+    background: #f79725 !important;
+    .ant-switch-handle {
+      left: calc(100% - 28px - 2px) !important;
+    }
+  }
+  
+  .ant-switch {
+    background: #2c3a93 !important;
+    height: 36px !important;
+    padding: 8px 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .ant-switch-inner {
+    font-size: 16px !important;
+  }
+  
+  .ant-switch-handle {
+    top: 8px !important;
+    left: 10px !important;
+  }
+  
