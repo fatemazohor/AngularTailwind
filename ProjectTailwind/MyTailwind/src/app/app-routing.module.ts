@@ -5,11 +5,11 @@ import { IntorductionComponent } from './components/intorduction/intorduction.co
 const routes: Routes = [
   
   {
-    path: '',
+    path: 'ards',
     loadChildren: () => import('./modules/layout/layout/layout.module').then((m) => m.LayoutModule),
   },
   {path:'home', component:IntorductionComponent},
-  {path:'**', redirectTo:'',pathMatch:'full'}
+  {path:'**', redirectTo:'/ards',pathMatch:'full'}
 ];
 
 @NgModule({

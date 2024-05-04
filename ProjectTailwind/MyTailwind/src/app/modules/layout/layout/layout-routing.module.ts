@@ -7,7 +7,8 @@ const routes: Routes = [
   {path:'',
     component:LayoutComponent,
     children:[
-      {path: 'ards/dashboard', component:DashboardComponent
+      {path: 'dashboard',
+      loadChildren: () => import('../layout/features/dashboard/dashboard.module').then((m) => m.DashboardModule),
     }
     ]
   }
