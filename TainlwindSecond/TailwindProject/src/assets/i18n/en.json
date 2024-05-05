@@ -1,0 +1,1006 @@
+{
+  "ARDS": "e-Advance Ruling",
+  "common": {
+    "nbr": "National Board of Revenue",
+    "copy_right_text": "National Board of Revenue (NBR), Bangladesh",
+    "dashboard": "Dashboard",
+    "app_name": "e-Advance Ruling",
+    "application-list": "Application List"
+  },
+  "advance-ruling": {
+    "title": "Advance Ruling",
+    "part-one": "The National Board of Revenue has implemented the advance ruling system in Bangladesh, as part of its customs modernization program. The facility is currently available only for classification of goods. The system has been in force since June 02, 2016 vide the Customs Ruling (Advance) Rules, 2016. To download the Rules, click on the downloadable link on the right-hand side menu.",
+    "part-two": "Advance ruling enables traders to apply for a ruling that specifies which classification code or H.S. Code will be applied for a specific goods or item. Such advance ruling provides importers and exporters certainty or how their goods will be treated by Customs nationwide, allowing the trade community to include tariff costs into their business plans."
+  },
+  "header": {
+    "text": {
+      "logo": "e-Advance Ruling"
+    },
+    "menu": {
+      "home": "Home",
+      "ruling-database": "Ruling Database",
+      "instructions": "Instructions"
+    },
+    "button": {
+      "sign-in": "Log In",
+      "sign-up": "Sign Up"
+    },
+    "profile-menu": {
+      "user-profile": "User Profile",
+      "settings": "Settings",
+      "guidelines": "Guidelines",
+      "logout": "Log Out"
+    }
+  },
+  "footer": {
+    "text": {
+      "long-notice": "Big news! We're excited to announce a brand new product.",
+      "short-notice": "We announced a new product!"
+    },
+    "button": {
+      "learn-more": "Learn more"
+    }
+  },
+  "sidebar": {
+    "button": {
+      "log-out": "Log out"
+    }
+  },
+  "menu": {
+    "text": {
+      "dashboard": "Dashboard",
+      "application": "Application",
+      "ruling": "Ruling",
+      "instructions": "Instructions",
+      "all-applications": "All Applications",
+      "received-applications": "Received Applications",
+      "approved-applications": "Approved Applications",
+      "new-applications": "New Applications",
+      "user-list": "User List",
+      "applicant-list": "Applicant List",
+      "waiting-for-approval": "Waiting For Approval",
+      "rejected-applications": "Rejected Applications",
+      "total-applications": "Total Applications",
+      "incomplete-application": "Incomplete Applications",
+      "hearing-applications": "Hearing Applications",
+      "advance-search": "Advance Search",
+      "applicant-count": "Total Applicant",
+      "user-count": "Total User",
+      "activity-log": "Activity Log",
+      "activity-log-sub": "Recent Activity Log",
+      "see-all": "See All",
+      "backup": "Database Backup",
+      "now": "Backup Now",
+      "email-configuration": "Email Configuration",
+      "calendar-configuration": "Calendar Configuration"
+    }
+  },
+  "home": {
+    "text": {
+      "banner-1": "e-Advance",
+      "banner-2": "Ruling System",
+      "banner-3": "",
+      "banner-4": "The advance ruling, issued by the Advance Ruling Unit (ARU) of NBR on a written request from an applicant, is a written and binding decision. The ruling provides binding advice on the classification of a certain good before its import and the Customs has to follow that.",
+      "notice": "Notice"
+    }
+  },
+  "sign-in": {
+    "text": {
+      "email": "Email",
+      "password": "Password",
+      "sign-in": "Log In",
+      "sign-up-1": "Don’t have a account?",
+      "sign-up-2": "Sign Up here",
+      "forgot-password": "Forget Password?",
+      "email-required": "Required field",
+      "password-required": "Required field",
+      "email-not-valid": "Not a valid email",
+      "remember-me": "Remember me"
+    }
+  },
+  "sign-up": {
+    "text": {
+      "sign-up": "Sign Up",
+      "instructions": "Please fill up the form to complete registration process",
+      "applicant-type": "Applicant Type",
+      "name": "Firm/Company/Person’s Name",
+      "bin": "BIN (if applicable)",
+      "ident-no": "NID/Passport/Birth Reg (in case of person)",
+      "email": "Email",
+      "mobile-no": "Mobile No.",
+      "password": "Password",
+      "confirm-password": "Confirm Password",
+      "types": {
+        "importer": "Importer",
+        "exporter": "Exporter",
+        "other": "Other"
+      },
+      "sign-in-1": "Already have an Account?",
+      "sign-in-2": "Log in",
+      "terms-checkbox": "I Accept the",
+      "terms": "terms",
+      "terms-two": ".",
+      "email-required": "Required field",
+      "email-not-valid": "Not a valid email",
+      "password-required": "Required field",
+      "password-invalid": "Invalid password. Please follow the guidelines below.",
+      "applicant-type-required": "Required field",
+      "name-required": "Required field",
+      "bin-required": "Required field",
+      "ident-no-required": "Required field",
+      "mobile-no-required": "Required field",
+      "mobile-no-not-valid": "Not a valid mobile number",
+      "confirm-password-required": "Required field",
+      "confirm-password-not-matched": "Password doesn't match",
+      "bin-not-valid": "Not a valid BIN no",
+      "ident-no-not-valid": "Not a valid NID/Passport/Birth Reg No.",
+      "password-requirements": "Use 8 or more characters with a mix of lowercase letters, uppercase letters, numbers & symbols.",
+      "terms-conditions": "Terms & Conditions"
+    }
+  },
+  "forgot-password": {
+    "text": {
+      "email": "Email",
+      "email-required": "Required field",
+      "email-not-valid": "Not a valid email",
+      "title": "Forgot Password",
+      "description": "Enter your email to reset your password."
+    },
+    "button": {
+      "submit": "Submit",
+      "cancel": "Cancel"
+    }
+  },
+  "new-password": {
+    "text": {
+      "password": "Password",
+      "password-required": "Required field",
+      "confirm-password": "Confirm Password",
+      "confirm-password-required": "Required field",
+      "confirm-password-not-matched": "Password doesn't match",
+      "title": "Setup New Password",
+      "description": "Have you already reset the password ?",
+      "sign-in": "Log in"
+    },
+    "button": {
+      "submit": "Submit"
+    }
+  },
+  "two-steps": {
+    "verify-otp": "Complete the OTP verification",
+    "email": "To your e-mail ",
+    "otp": " an OTP has been sent.",
+    "resend": "Resend OTP",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "auth-success": {
+    "congrats": "Congratulations",
+    "success": "Process completed successfully.",
+    "user-id": "User ID",
+    "login-link": "Click here to log in"
+  },
+  "application": {
+    "form-part-one": "General Info",
+    "form-part-two": "Document",
+    "form-part-three": {
+      "title": "Conversation",
+      "receiver": "Conversation With Receiver",
+      "approver": "Conversation With Approver",
+      "withdraw": "Withdrawn Application",
+      "verdict": "Rejection Reason",
+      "review": "In Review"
+    },
+    "step-one": {
+      "title": "1. Applicant details",
+      "applicant-type": {
+        "label": "Applicant type",
+        "option-one": "Importer",
+        "option-two": "Exporter",
+        "option-three": "Others",
+        "required-error-message": "Please Choose Applicant Type."
+      },
+      "firm-or-company-name": {
+        "label": "Firm/Company/Person’s name",
+        "placeholder": "Enter Firm/Company/Person’s name",
+        "required-error-message": "Please Type Firm/Company/Person’s Name."
+      },
+      "bin-number": {
+        "label": "Business Identification Number (BIN)",
+        "placeholder": "Enter business identification number",
+        "length-error-message": "Please Type Correct Business Identification Number (BIN)."
+      },
+      "firm-or-company-address": {
+        "label": "Firm/Company/Person’s address",
+        "placeholder": "Enter Firm/Company/Person’s address",
+        "required-error-message": "Please Type Firm/Company/Person’s address."
+      },
+      "contact-person": {
+        "label": "Contact Person",
+        "placeholder": "Enter Contact person",
+        "required-error-message": "Please Type Contact Person Name."
+      },
+      "designation": {
+        "label": "Designation",
+        "placeholder": "Enter Designation",
+        "required-error-message": "Please Type Designation Of Contact Person."
+      },
+      "nid-passport-number": {
+        "label": "National ID/Passport/Birth Registration No. (in case of person)",
+        "short-label": "ID No",
+        "placeholder": "Enter National ID/Passport/Birth Registration No.",
+        "length-error-message": "Please Type Correct National ID/Passport/Birth Registration No."
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Enter E-mail",
+        "required-error-message": "Please Type E-mail."
+      },
+      "mobile": {
+        "label": "Mobile no.",
+        "placeholder": "Enter Mobile no.",
+        "required-error-message": "Please Type Mobile No."
+      },
+      "telephone": {
+        "label": "Telephone no.",
+        "placeholder": "Enter Telephone no."
+      },
+      "fax-number": {
+        "label": "Fax no.",
+        "placeholder": "Enter Fax no."
+      }
+    },
+    "step-two": {
+      "title": "2. Description Of Product",
+      "generic-name": {
+        "label": "Generic, commercial and established name of the goods",
+        "placeholder": "Enter Generic, commercial and established name of the goods",
+        "required-error-message": "Please Type Generic, commercial and established name."
+      },
+      "brand-model-number": {
+        "label": "Brand/Model no",
+        "placeholder": "Enter Brand/Model no",
+        "required-error-message": "Please Type Brand/Model no."
+      },
+      "origin-country": {
+        "label": "Country of origin",
+        "placeholder": "Enter Country of origin",
+        "required-error-message": "Please Type Country of origin."
+      },
+      "art-part-number": {
+        "label": "Art no., Part no.",
+        "placeholder": "Enter Art no., Part no.",
+        "required-error-message": "Please Type Art no., Part no.."
+      },
+      "manufacturer": {
+        "label": "Manufacturer",
+        "placeholder": "Enter Manufacturer",
+        "required-error-message": "Please Type Manufacturer name."
+      },
+      "usage-of-good": {
+        "label": "The use(s) of the goods in question",
+        "placeholder": "Enter The use(s) of the goods in question",
+        "required-error-message": "Please Type The use(s) of the goods."
+      },
+      "form-of-good": {
+        "label": "The form in which the goods will be imported",
+        "placeholder": "Enter The form in which the goods will be imported",
+        "required-error-message": "Please Type The form."
+      },
+      "composition-of-good": {
+        "label": "Composition of the goods",
+        "placeholder": "Enter Composition of the goods",
+        "required-error-message": "Please Type Composition of the goods."
+      },
+      "technical-description": {
+        "label": "Technical description of the goods",
+        "placeholder": "Enter Technical description of the goods",
+        "required-error-message": "Please Type Technical description."
+      },
+      "manufacturing-process": {
+        "label": "Description of the manufacturing process of the goods (applicable for food and beverages)",
+        "placeholder": "Enter Description of the manufacturing process of the goods"
+      },
+      "product-names": {
+        "label": "Name of the Goods to be imported or exported (if known)",
+        "placeholder": "Enter Name of the Goods to be imported or exported"
+      },
+      "exporter-importer-name": {
+        "label": "Exporter or supplying firm (if applicable)-",
+        "placeholder": "Enter Exporter or supplying firm"
+      },
+      "exporter-importer-address": {
+        "label": "Address Of Exporter or supplying firm",
+        "placeholder": "Enter Address Of Exporter or supplying firm"
+      },
+      "exporter-importer-email": {
+        "label": "Email Of Exporter or supplying firm",
+        "placeholder": "Enter Email Of Exporter or supplying firm"
+      },
+      "exporter-importer-web": {
+        "label": "Website Address Of Exporter or supplying firm",
+        "placeholder": "Enter Website Address Of Exporter or supplying firm"
+      },
+      "custom-station": {
+        "label": "Name of the customs station through which the goods in question will be importer or exported (if known)",
+        "placeholder": "Enter Name of the customs station through which the goods in question will be importer or exported"
+      },
+      "invoice-number": {
+        "label": "Lien Bank’s name, Letter of credit or Contract no., and Pro-forma invoice or Purchase order no. (if applicable)",
+        "placeholder": "Enter Lien Bank’s name, Letter of credit or Contract no., and Pro-forma invoice or Purchase order no."
+      },
+      "product-material": {
+        "label": "Chemical composition, material composition of the ingredients or components with which the goods is made of (if applicable)",
+        "placeholder": "Enter Chemical composition, material composition of the ingredients or components with which the goods is made of"
+      },
+      "importing-first-time": {
+        "label": "Is this your first importing/exporting of this product?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      },
+      "hs-code": {
+        "label": "If the answer is 'No', mention HS code previously used",
+        "placeholder": "Enter HS code",
+        "required-error-message": "Please Enter HS code."
+      },
+      "got-ruling": {
+        "label": "Have you received any ruling on the subject before?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      },
+      "ruling-number": {
+        "label": "If the answer is 'Yes', mention ruling no previously used",
+        "placeholder": "Enter ruling no",
+        "required-error-message": "Please Enter ruling no."
+      },
+      "attached-idm": {
+        "label": "Illustrative Descriptive Material (IDM) submitted along with the application?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      },
+      "product-sample": {
+        "label": "Sample of the goods attached with the application?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      }
+    },
+    "step-three": {
+      "title": "3. HS Code Information",
+      "opinion": {
+        "label": "Applicant's Opinion",
+        "placeholder": "Enter Your Opinion",
+        "required-error-message": "Please Enter Your Opinion."
+      },
+      "proposed-hs-code": {
+        "label": "HS Code Claimed",
+        "placeholder": "Enter Claimed HS Code",
+        "required-error-message": "Please Enter Claimed HS Code."
+      }
+    },
+    "step-four": {
+      "title": "4. Payment of fees",
+      "payment-mode": {
+        "label": "Mode of payment",
+        "option-one": "Demand draft",
+        "option-two": "Pay order no.",
+        "required-error-message": "Please Select An Option."
+      },
+      "payment-invoice-number": {
+        "label": "Demand draft/Pay order no.",
+        "placeholder": "Enter Demand draft/Pay order no.",
+        "required-error-message": "Please Enter Demand draft/Pay order no."
+      },
+      "bank-name": {
+        "label": "Bank Name",
+        "placeholder": "Enter Bank Name",
+        "required-error-message": "Please Enter Bank Name"
+      },
+      "branch-name": {
+        "label": "Branch Name",
+        "placeholder": "Enter Branch Name",
+        "required-error-message": "Please Enter Branch Name"
+      },
+      "payment-date": {
+        "label": "Payment Date",
+        "placeholder": "Select Payment Date",
+        "required-error-message": "Please Select Payment Date"
+      },
+      "payment-slip": {
+        "label": "Payment Slip",
+        "placeholder": "Upload Payment Slip",
+        "required-error-message": "Please Upload Payment Slip"
+      }
+    },
+    "step-five": {
+      "title": "5. Comment",
+      "heard-in-person": {
+        "label": "Do you want the opportunity to be heard in person?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      }
+    },
+    "step-six": {
+      "title": "6. Privacy",
+      "privacy": {
+        "label": "Do you want your trade secrets or secret commercial of financial information to be kept as confidential?",
+        "option-one": "Yes",
+        "option-two": "No",
+        "required-error-message": "Please Select An Option."
+      },
+      "privacy-description": {
+        "label": "Share trade secrets or secret commercial of financial information",
+        "placeholder": "Enter secrets",
+        "required-error-message": "Please Enter secrets."
+      }
+    },
+    "step-seven": {
+      "title": "7. Declaration",
+      "declaration-one": "No case has been filed by me in the court in this regard.",
+      "declaration-two": "I hereby declare that the information furnished in this form is true and correct.",
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter Name"
+      },
+      "signature": {
+        "label": "Signature",
+        "placeholder": "Enter Signature"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Enter Signature"
+      }
+    },
+    "step-eight": {
+      "title": "1. Documents",
+      "additional-docs": "2. Other Documents",
+      "upload-document": "Upload Documents",
+      "doc-type": {
+        "label": "Document Type",
+        "placeholder": "Select Document Type",
+        "required-error-message": "Please Select Document Type",
+        "types": {
+          "one": "Applicant's National Identity Card/Passport/Birth Certificate (in case of individual)",
+          "two": "Authorization letter in case of submission of application form through representative",
+          "three": "Letter of credit or contract and pro-forma invoice or purchase order (where applicable)",
+          "four": "Documents relating to other special features of the product",
+          "five": "Information/literature on product composition",
+          "six": "Information / literature on technical specifications of products",
+          "seven": "Product brochures / literature (if applicable)",
+          "eight": "Conceptual images of the product, sketches, digital images, flow-charts etc. (where applicable)",
+          "nine": "Evidence/documentation regarding the form or nature of the product i.e. in which form the product is powder, liquid or aqueous solution",
+          "ten": "In case of product specification sheet document in a foreign language other than English, it should be translated into English/Bangla",
+          "eleven": "Product samples (if applicable)",
+          "twelve": "Specific details of the information to be kept confidential regarding the product (if applicable)",
+          "thirteen": "Others"
+        }
+      },
+      "comment": {
+        "label": "Comment",
+        "placeholder": "Write your comment."
+      },
+      "document": {
+        "label": "Document",
+        "placeholder": "Drop your document here or click to browse. Maximum file size is 2MB।"
+      }
+    },
+    "feedback": {
+      "tab-title": "Feedback",
+      "title": "Feedback From NBR",
+      "label": "Mention Your Reasons",
+      "placeholder": "Write Your Reasons Here",
+      "error-message": "Please Type Your Reasons",
+      "doc-label": "Give A Detailed Description Of The Document",
+      "doc-placeholder": "Write Detailed Description Of The Document",
+      "doc-error": "Please Write Detailed Description Of The Document",
+      "timeline": "Timeline"
+    },
+    "ruling": {
+      "label": "Ruling Number",
+      "placeholder": "Please Input A Ruling Number",
+      "required-error-message": "Ruling Number Is Required."
+    },
+    "confirm-modal": {
+      "approval-question": "Do you Want to approve this application?",
+      "pending-question": "Do you Want to hold this application?",
+      "receive-question": "Do you Want to receive this application?",
+      "send-for-approval-question": "Do you Want to send this application for approval?",
+      "review-title": "Apply For Review",
+      "withdraw-title": "Reason For Withdrawal",
+      "upload-documents": "Upload Documents",
+      "confirm-submission": "Confirm Your Submission",
+      "rejection-title": "Reason For Rejection",
+      "approve-title": "Approve Application",
+      "pending-title": "Make Pending",
+      "accept-title": "Accept Application",
+      "withdraw-question": "Do You Want To Withdraw This Application?",
+      "submit-question": "Do You Want To Submit This Application?",
+      "withdraw": "Withdraw Application",
+      "additional-docs": "Additional Documents",
+      "required-docs": "Require Documents",
+      "resubmit": "Do you want to resubmit the application?",
+      "resubmit-with-addi-doc": "Do you want to resubmit application with additional documents?",
+      "timeline-not-available": "Timeline is not available for this application.",
+      "additional-doc-modal": {
+        "document-name": "Document Type",
+        "document-name-placeholder": "Enter Document Type",
+        "document-name-error": "Please Enter Document Type"
+      },
+      "review-doc-title": "Document Needed For Review Process",
+      "review-doc-submit": "Do you want to resubmit with these documents?",
+      "approve-review": "Do you want to approve this review?",
+      "hearing": "Hearing",
+      "confirm-hearing": "Do you want to send email to applicant?"
+    },
+    "hearing": {
+      "title": "Hearing",
+      "date": {
+        "label": "Hearing Date",
+        "placeholder": "Select Hearing Date",
+        "error-message": "Date required."
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Please write your message",
+        "error-message": "Message required."
+      },
+      "send-email": "Send Email"
+    },
+    "action": {
+      "next": "Next",
+      "previous": "Previous",
+      "add": "Add",
+      "cancel": "Cancel",
+      "new-application": "New Application",
+      "save": "Save",
+      "password-confirm-label": "Enter Your Password",
+      "apply-for-review": "Apply For Review",
+      "withdraw": "Withdraw",
+      "go-back": "Go Back",
+      "edit-mode-on": "Turn On Edit Mode",
+      "edit-mode-off": "Turn Off Edit Mode",
+      "receive": "Receive",
+      "ask-for-add-doc": "Compulsory Documents",
+      "send-for-approval": "Send For Approval",
+      "approve": "Approve",
+      "reject": "Reject",
+      "pending": "Pending",
+      "accept": "Accept",
+      "ask-for-docs": "Ask For Documents",
+      "yes": "Yes",
+      "no": "No",
+      "close": "Close",
+      "resubmit": "Re-Submit",
+      "hearing": "Hearing",
+      "complete-hearing": "Complete Hearing"
+    },
+    "preview": {
+      "title": "Download",
+      "preview": "Preview",
+      "form": "Form",
+      "ruling": "Application for Advance Ruling on Classification of Products",
+      "note": "Rule 7 (1) Note",
+      "exporter-importer-title": "Exporter or supplying firm (if applicable)",
+      "exporter-importer-name": "(a) Name",
+      "exporter-importer-address": "(b) Address",
+      "exporter-importer-email": "(c) Email",
+      "exporter-importer-web": "(d) Website Address",
+      "steps": {
+        "office-use": "For official use",
+        "one": "Section 1. Applicant details",
+        "two": "Section 2. Description Of Product",
+        "three": "Section 3. HS Code Information",
+        "four": "Section 4. Payment of fees",
+        "five": "Section 5. Comment",
+        "six": "Section 6. Privacy",
+        "seven": "Section 7. Declaration",
+        "eight": "Attachment"
+      },
+      "declaration": {
+        "one": "1 ",
+        "two": "2 "
+      },
+      "texts": {
+        "form-fill-up-time": "It will take you 30 minutes to fill out this form.",
+        "read-instructions": "Please read the instructions described on the last page before filling out this form.",
+        "following-info": "You will need the following information to fill out this form:",
+        "info-one": "(a) Product catalog/brochure",
+        "info-two": "(b) Detailed description or specification or data of the product",
+        "info-three": "(c) Ingredients or chemical or material composition",
+        "info-four": "(d) Production process",
+        "info-five": "(e) Other special characteristics or indicators (if any).",
+        "fee-part-one": "A fee of 2000 (two thousand) taka will be payable for each application. An application is applicable for only",
+        "fee-part-two": "one product's",
+        "fee-part-three": "classification. The advance ruling issued will be applicable for use in Bangladesh.",
+        "submission": "After filling out the form, it must be submitted to the Advance Ruling Unit along with all necessary documents (in person/by post/by courier/by email/by fax).",
+        "application-no": "Advance Ruling Application No. :",
+        "received-date": "Application Received Date :",
+        "receipt-no": "Receipt No. :",
+        "payment-date": "Fee Payment Date :",
+        "telephone-with-mobile": "Telephone No (With Mobile)",
+        "name": "Name",
+        "signature": "Signature",
+        "date": "Date",
+        "instruction": "Guidelines for Filling 'Form'",
+        "instruction-one": "1. All the fields of the form must be filled. If any cell is not applicable, write 'Not Applicable'.",
+        "instruction-two": "2. Section 2:",
+        "instruction-two-one": "(a) While describing the use(s), the applicant must mention the general use(s) of the goods rather than the specific intended use. For example, if a machine is imported for cutting leather, but the actual machine cuts a range of materials, the range should be described, e.g. “cutting leather, plastics, cardboard and thin sheet metal”.",
+        "instruction-two-two": "(b) In the case of composition of the goods, its chemical composition, material composition etc. must be mentioned.",
+        "instruction-two-three": "The form/manner in which the goods will be imported requires a description of the relevant aspects of how the goods are when imported. For example, are they-",
+        "instruction-two-three-one": "i. assembled/unassembled/disassembled/semi-knocked down",
+        "instruction-two-three-two": "ii. bulk/by the piece/packaged for retailed sale?",
+        "instruction-two-three-three": "iii. powder form/solid form/in aqueous solution?",
+        "instruction-two-four": "() Where applicable, the application must accompany Illustrative Descriptive Material (IDM). IDM is needed to enable a full and accurate identification of the goods. Supporting IDM can include samples, commercial or trade or technical literature/catalogue, chemical analysis or other illustrative information.",
+        "instruction-three": "3. Section-7: Applicant must sign the 'Form'.",
+        "nota-bene": "N.B.",
+        "nota-bene-one": "(1) The completed and signed 'Form' should be submitted to the President, Advance Ruling Unit, National Board of Revenue, Revenue Bhavan, Segun Bagicha, Dhaka.",
+        "nota-bene-two": "(2) Attached documents should be submitted on A4 size paper.",
+        "docs": {
+          "one": "(1) Copy of the applicant’s National Identification Number/Passport/Birth Registration no. (in the case of person)",
+          "two": "(2) The relevant authorization letter, in case of submission of application by an authorized person within the meaning of rule 6.",
+          "three": "(3) Letter of credit or Contract and Pro-forma invoice or Purchase order (where applicable)",
+          "four": "(4) Documents related to other characteristics or special features (if any)",
+          "five": "(5) Information/Literature related to the composition of the goods",
+          "six": "(6) Information/Literature related to the technical specification of the goods",
+          "seven": "(7) Brochure/literature of the goods (where applicable)",
+          "eight": "(8) Illustrative pictures, sketches, digital photographs, flows charts etc. of the goods (where applicable)",
+          "nine": "(9) Proof/document related to form or nature of the goods (for example, whether in powder, liquid or aqueous solution)",
+          "ten": "(10) Product specification sheet (product information in a foreign language (other than English) should be translated into English/Bangla)",
+          "eleven": "(11) Sample of the goods (where applicable)",
+          "twelve": "(12) Description of specific information about the goods that needs to remain confidential (where applicable)"
+        },
+        "order": "By order of the National Board of Revenue,",
+        "signed": " Signed/-",
+        "chairmen-name": "(Md. Najibur Rahman)",
+        "chairmen": "Chairman"
+      }
+    }
+  },
+  "instructions": {
+    "text": {
+      "instructions": "Instructions",
+      "additions": "Additions",
+      "nota_bene": "Note",
+      "nota_bene_details_part_one": "Customs Advance Rulings are only applicable to product classification. By enforcing",
+      "nota_bene_details_part_two": "Customs Advanced Rules (2016), ",
+      "nota_bene_details_part_three": " Advanced Rulings System has been active since 02 June, 2016.",
+      "required_documents": "To get the advance rulings related to product classification, the documents and information specified below should be inluded in the application"
+    }
+  },
+  "ruling-database": {
+    "text": {
+      "title": "Advance Ruling Database",
+      "description": "Advance rules that are enforced by Advance Ruling Unit of National Board of Revenue (NBR)"
+    },
+    "button": {
+      "search": "Search by goods name"
+    }
+  },
+  "table": {
+    "header": {
+      "category": "Category",
+      "ruling_no": "Ruling No.",
+      "created_on": "Creation Date",
+      "goods": "Goods / Item for which AR issued",
+      "application-no": "Application No",
+      "company-person-name": "Company/Person Name",
+      "applicant-name": "Applicant Name",
+      "application-date": "Application Date",
+      "claimed-hs-code": "Claimed HS Code",
+      "product-name": "Product Name",
+      "product-model": "Product Model",
+      "received-date": "Received Date",
+      "status": "Status",
+      "document-type": "Document Type",
+      "document-name": "Document Name",
+      "comment": "Description",
+      "date-of-approval": "Date Of Approval",
+      "ruling-issued-on": "Issued On",
+      "valid-till": "Valid Till",
+      "expired-date": "Expired Date",
+      "rejected-date": "Rejection Date",
+      "country-origin": "Country of Origin",
+      "action": "Action",
+      "view": "Details",
+      "timeline": "Timeline",
+      "actions": "Actions",
+      "download": "Download",
+      "payment-date": "Payment Date",
+      "activity-description": "Activity Description",
+      "reference": "Reference",
+      "created-on": "Time",
+      "days_left": "Days Left"
+    }
+  },
+  "ruling": {
+    "title": "ruling",
+    "generating-ruling": "Generating Ruling PDF. Please Wait"
+  },
+  "new-application": {
+    "title": "New Application"
+  },
+  "received-application": {
+    "title": "Received Application"
+  },
+  "approved-application": {
+    "title": "Approved Application"
+  },
+  "all-application": {
+    "title": "All Application"
+  },
+  "user-list": {
+    "title": "User List",
+    "add-user": "Add User",
+    "user-details": "User Details",
+    "edit-user": "Edit User",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter Name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter Your Email"
+      },
+      "mobile-number": {
+        "label": "Mobile no.",
+        "placeholder": "Enter your Mobile no."
+      },
+      "role": {
+        "label": "Role",
+        "placeholder": "Select Role"
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Select Status"
+      },
+      "password": {
+        "label": "New Password",
+        "placeholder": "Enter New Password"
+      },
+      "retype-password": {
+        "label": "Confirm Password",
+        "placeholder": "Enter Password Again"
+      },
+      "bin": {
+        "label": "BIN",
+        "placeholder": "Enter BIN"
+      },
+      "ident_no": {
+        "label": "NID/Passport/Birth Reg",
+        "placeholder": "Enter NID/Passport/Birth Reg"
+      },
+      "required-error-message": "This Field is Required",
+      "inavlid-error-message": "Input is invalid",
+      "password-not-matched-error-message": "Password doesn't match",
+      "submit": "Submit",
+      "date": "Date",
+      "address": "Address",
+      "nid": "NID No.",
+      "faxNo": "Fax No",
+      "mobile": "Mobile Number"
+    },
+    "confirmation-modal": {
+      "modal-title": "Do you wish to create a new user ?",
+      "modal-content": "Please ensure that user's information has been entered correctly.",
+      "confirm-text": "Confirm",
+      "cancel-text": "Cancel"
+    }
+  },
+  "profile": {
+    "edit-profile": "Edit Profile",
+    "change-password": "Change Password",
+    "bin": "BIN",
+    "message": {
+      "applicant": "Logged in as Applicant",
+      "receiver": "Logged in as Receiver",
+      "approver": "Logged in as Approver",
+      "admin": "Logged in as Admin",
+      "super-admin": "Logged in as Super Admin"
+    },
+    "action": {
+      "change-photo": "Change Photo",
+      "change-modal-title": "Do you want to change your password?",
+      "change-modal-content": "You will receive an email if you proceed. You will be required to enter the otp from email in order to change your password.",
+      "change-modal-confirm": "Confirm",
+      "change-modal-cancel": "Cancel"
+    }
+  },
+  "filter": {
+    "search-placeholder": "Search By Product Name",
+    "user-placeholder": "Search By User Name",
+    "status-label": "Select Status",
+    "role-label": "Select Role",
+    "reset": "Clear Filters",
+    "reload": "Reload",
+    "admin-search-placeholder": "Search By Company Name/Product Name",
+    "applicant-search-placeholder": "Search By Product Name/Model No",
+    "select-fields": "Find what you're looking for with tags",
+    "search-text": "Please enter what you are searching",
+    "office-label": "Office Type",
+    "office-placeholder": "Search By Office Name",
+    "calendar-placeholder": "Search By Calendar Year"
+  },
+  "dashboard": {
+    "statistics": "Statistics",
+    "pie-chart-title": "Application Status Distribution",
+    "column-chart-title": "Monthly Application Statistics",
+    "y-axis-label": "Number Of Application",
+    "new-application": "New Application",
+    "rejected-application": "Rejected Application",
+    "pending-application": "Pending Application",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    }
+  },
+  "notification": {
+    "heading": "Notification",
+    "title": "ARDS",
+    "message": "No notifications",
+    "see-all": "See All Notifications",
+    "mark-as-read": "Mark All Notifications As Read",
+    "all-notifications": "All Notifications"
+  },
+  "generate-ruling": {
+    "tab-one": "Ruling Edit",
+    "tab-two": "Ruling Upload",
+    "tab-three": "Preview",
+    "fields": {
+      "document": {
+        "label": "নথি নং - ০৮.০১.০০০০।০৫৪.১১.০০৬.১৯/",
+        "placeholder": "১০৬"
+      },
+      "date": {
+        "label": "তারিখ:",
+        "placeholder": ""
+      },
+      "classification": {
+        "placeholder": "বর্ণিত পণ্যের সঠিক শ্রেণীবিন্যাস এবং শ্রেনীবিন্যাসের পক্ষে যুক্তি লিখুন"
+      },
+      "hs-code": {
+        "placeholder": "এইচএস কোড (3404.90.90)"
+      }
+    },
+    "uploaded-file": "Uploaded File"
+  },
+  "generate-hearing": {
+    "tab-one": "Hearing Edit",
+    "tab-two": "Hearing Upload",
+    "fields": {
+      "comment": {
+        "label": "Comment",
+        "placeholder": "Enter Your Comment",
+        "error-message": "Comment required."
+      },
+      "doc": {
+        "label": "Upload File"
+      },
+      "distribution": {
+        "placeholder": "Name of the places to distribute"
+      },
+      "information": {
+        "serial": "Serial No.",
+        "names": "Names to be distributed."
+      },
+      "office": {
+        "label": "Custom Offices",
+        "placeholder": "Select Office",
+        "required_error_message": "Office is required."
+      },
+      "recipients": {
+        "label": "Recipients:",
+        "placeholder": "Select Recipients",
+        "required_error_message": "Recipients is required."
+      },
+      "subject": {
+        "label": "Subject:",
+        "placeholder": "Enter Subject",
+        "required_error_message": "Subject is required."
+      },
+      "body": {
+        "label": "Body:",
+        "placeholder": "Enter Body Message",
+        "required_error_message": "Body Message is required."
+      },
+      "attachment": "Attachment:"
+    }
+  },
+  "advance-search": {
+    "application-no": "Application No",
+    "check-all": "Check All",
+    "search": "Search",
+    "tag-error": "Please Select At Least One Box",
+    "search-error": "Please Input What You Are Looking For",
+    "table": {
+      "application_no": "Application No",
+      "name": "Applicant's Name",
+      "product_name": "Product Name",
+      "product_brand_model_no": "Product Brand/Model No",
+      "product_country_of_origin": "Country Of Origin",
+      "product_usage": "Product's Usage",
+      "product_form": "Product's Form",
+      "product_composition": "Product's Composition",
+      "technical_description": "Technical Description",
+      "manufacturing_process": "Manufacturing Process",
+      "chemical_material_composition": "Chemical Material Composition",
+      "applicants_opinion": "Applicant's Opinion",
+      "claimed_hs_code": "Proposed HS Code",
+      "given_hs_code": "Given HS Code",
+      "ruling_no": "Ruling No"
+    }
+  },
+  "email-configuration": {
+    "office-list": {
+      "title": "Office List",
+      "table": {
+        "name_en": "Office Name",
+        "name_bn": "Office Name (Bangla)",
+        "office_type": "Office Type",
+        "code": "Code",
+        "email_address": "Email Address",
+        "edit": "Edit"
+      },
+      "modal": {
+        "title": "Office Email Address",
+        "office_name": "Office Name",
+        "email_address": "Email Address",
+        "email_address_placeholder": "Enter Email Address",
+        "email_address_required": "Email Address Required",
+        "submit": "Submit"
+      }
+    }
+  },
+  "calendar-configuration": {
+    "title": "Calendar List",
+    "new": "Add New Calendar Year",
+    "edit-calendar": "Edit Calendar Year: ",
+    "table": {
+      "year_en": "Year",
+      "start_date": "Start Date",
+      "end_date": "End Date"
+    },
+    "form": {
+      "new-year-modal": "New Calendar Year",
+      "edit-day-modal": "Edit Day",
+      "date": "Date",
+      "year_en": {
+        "label": "Year",
+        "placeholder": "Select Year",
+        "required_error_message": "Year is required."
+      },
+      "is_holiday": {
+        "label": "Is This Holiday?",
+        "placeholder": "Select Holiday Or Not",
+        "required_error_message": "This field is required."
+      },
+      "holiday_name": {
+        "label": "Holiday Name",
+        "placeholder": "Enter Holiday Name",
+        "required_error_message": "Holiday Name is required."
+      }
+    }
+  },
+  "404": {
+    "title": "404 error",
+    "headline": "Page not found.",
+    "text": "Sorry, we couldn’t find the page you’re looking for.",
+    "button": {
+      "back-to-start": "Go back home"
+    }
+  }
+}
